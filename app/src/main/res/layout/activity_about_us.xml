@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABD1C9"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/textView_TitleOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Biz Kimiz?"
+        android:textAlignment="textStart"
+        android:paddingLeft="15dp"
+        android:textColor="#D95F6D"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_Inform1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Bir süre önce ülkemizin başına gelen 6 Şubat Kahramanmaraş depreminde acı bir şekilde tecrübe etmiş olduk ki ne afet anında ne de afetten sonra yardıma ihtiyacı olan insanların konumlarını ve durumlarını bildirebilecekleri uygun bir platform maalesef ki bulunmamaktadır. Bu eksikliği gidermek adına gönüllü olmuş iki bilgisayar mühendisi tarafından tasarlanan 'Afet Bildir' uygulaması sizlerin kullanımına ücretsiz bir şekilde sunulmuştur. "
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TitleOne"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView_TitleTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Hedefimiz Nedir?"
+        android:paddingLeft="15dp"
+        android:textColor="#D95F6D"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Inform1"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Inform2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Biz 'Afet Bildir' ailesi olarak sizleri önemsiyor ve bir afetin ardında bırakabileceği bütün olumsuz durumlarda yanınızda olarak size destek olmak istiyoruz. Gerek afet anında gerekse afet sonrasında sesinizi ilgili yetkililere duyurmak adına sizlere aracı olmak bizlerin en büyük hedefi ve önceliğidir."
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TitleTwo"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView_TitleThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Bu Uygulama Ne İşe Yarar?"
+        android:paddingLeft="15dp"
+        android:textColor="#D95F6D"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Inform2"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Inform3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="'Afet Bildir' uygulamasını kullanarak hem afet anında sesinizi doğrudan yetkililere duyurabilir hem de afet sonrasında gerek duyabileceğiniz her türlü istek ve ihtiyacınızı bizlere bildirebilirsiniz. Bunları dilerseniz sizlere sunmuş olduğumuz ilgili afet ve yardım formlarını doldurarak dilerseniz de sizler için 7/24 aktif halde tutmış olduğumuz iletişim kanallarımızı kullanarak yapabilirsiniz. Yardım taleplerinizi aldıktan sonra en kısa sürede size ulaşabilmesi için yetkililerle iletişime geçecek ve 'Afet Bildir' ailesi olarak her zaman sizin yanınızda olacağız."
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TitleThree"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABD1C9"
+    tools:context=".EmergencyShow">
+
+    <TextView
+        android:id="@+id/TextView_NameAndSurname"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Ad Soyad: "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_NameAndSurnameShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:text="Mehmet Burak Halıcı"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_NameAndSurname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_IdentificationNumber"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Kimlik No: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_NameAndSurname"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_IdentificationNumberShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="45058952918"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_IdentificationNumber"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_NameAndSurnameShow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Gender"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Cinsiyet: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_IdentificationNumber"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_GenderShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Erkek"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_Gender"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_IdentificationNumberShow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Age"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Yaş: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Gender"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_AgeShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_Age"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_GenderShow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_PhoneNumber"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Telefon: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Age"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_PhoneNumberShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="+90 530 799 64 01"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_PhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_AgeShow"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Disaster"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Afet Türü: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_PhoneNumber"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_DisasterShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Sel"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_Disaster"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_PhoneNumberShow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Location"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Konum: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Disaster"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TextView_LocationShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Kavaklıönü mah. Osman Elmacı cad. Park Ürgüp Sitesi Blok: A2-5 No: 4 Ürgüp/Nevşehir."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_Location"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_DisasterShow"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/TextView_Situation"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Durum: "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_LocationShow" />
+
+    <TextView
+        android:id="@+id/TextView_SituationShow"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Evimizi su bastı, çok acil yardıma ihtiyacımız var. Lütfen..."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/TextView_Situation"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_LocationShow"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/Button_Save"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="İHBAR BİLDİRİLDİ"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck"
+        android:fontFamily="sans-serif-thin"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

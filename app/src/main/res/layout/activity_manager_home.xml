@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABD1C9"
+    tools:context=".ManagerHome">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yönetici Sayfasına\nHoş Geldiniz"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/Button_Emergency"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="AFET İHBARLARI"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView_Title"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/Button_Support"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="YARDIM TALEPLERİ"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button_Emergency"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/Button_Exit"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:fontFamily="sans-serif-thin"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="ÇIKIŞ YAP"
+        android:textColor="#FFFFFF"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button_Support"
+        tools:ignore="TextSizeCheck"
+        android:layout_marginTop="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
